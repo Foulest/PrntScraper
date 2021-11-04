@@ -96,6 +96,9 @@ $RECYCLE.BIN/
 *.lnk
 
 target/
+build/
+.gradle/
+run/
 
 pom.xml.tag
 pom.xml.releaseBackup
@@ -108,16 +111,3 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 .flattened-pom.xml
-
-# Common working directory
-run/
-/.gradle/buildOutputCleanup/buildOutputCleanup.lock
-/.gradle/buildOutputCleanup/cache.properties
-/.gradle/checksums/checksums.lock
-/.gradle/configuration-cache/gc.properties
-/.gradle/vcs-1/gc.properties
-/build/tmp/jar/MANIFEST.MF
-/.gradle/checksums/md5-checksums.bin
-/.gradle/buildOutputCleanup/outputFiles.bin
-/.gradle/checksums/sha1-checksums.bin
-/build/tmp/compileJava/source-classes-mapping.txt
